@@ -20,7 +20,7 @@
 <body>
 
 <a-scene
-  mindar-image="imageTargetSrc: ./targets/targets.mind;"
+  mindar-image="imageTargetSrc: ./targets/targets.mind; filterMinCF:0.001; filterBeta:0.0001;"
   color-space="sRGB"
   renderer="colorManagement: true; physicallyCorrectLights: true; exposure: 1.2"
   vr-mode-ui="enabled: false"
@@ -58,7 +58,7 @@
       src="#campus"
       position="0 0 0"
       rotation="90 0 0"
-      scale="0.02 0.02 0.02">
+      scale="0.03 0.03 0.03">
     </a-gltf-model>
 
   </a-entity>
